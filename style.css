@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: "400";
+    background: #EFE6E4;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.promo {
+    font-weight: 400;
+    color: #533738;
+}
+
+.first-heading {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+    width: 534px;
+    height: 186px;
+}
+
+.promo-description {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #533738; 
+}
+
+.button.promo-button {
+    background: #CC8B86;
+    padding: 25px 66px 24px 68px;
+    width: 309px;
+    height: 74px;
+    margin-top: 21px;
+}
+
+
+
+.navigation {
+    display: flex;
+    margin-right: 26px;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #533738;
+}
+
+.header-navigation a {
+    display: flex;
+}
+
+.promo {
+    background-image: url(../img/bg-m.jpg);
+    background-size: auto;
+    min-height: 515px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 65px 182px 21px 182px;
+}
+
+.achievements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8D7370;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.container-achievements {
+    padding: 85px 180px 81px 182px;
+}
+
+.section-heading {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #533738;
+    text-align: center;
+}
+
+.team {
+    padding: 50px 182px 35px 181px;
+    background-color: #E2C4BA;
+}
+
+.team-list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.team-item p {
+    width: 320px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.process-list {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+ol {
+    list-style: none;
+}
+
+.form {
+    color: #FFFFFF;
+    background-color: #8D7370;
+}
+
+.form .wide-container {
+    padding-left: 100px;
+    padding-right: 100px;
+    }
+
+.form h2 {
+width: 474px;
+height: 50px;
+color: #FFFFFF;
+}
