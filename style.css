@@ -25,6 +25,9 @@ body {
     background: #EFE6E4;
     margin: 0;
     padding: 0;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
 }
 
 a {
@@ -32,9 +35,66 @@ a {
     color: inherit;
 }
 
+.header {
+    min-height: 102px;
+    padding: 36px 99px;
+    font-size: 16px;
+    line-height: auto;
+    background-image: url(../img/bg-m.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header-content {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    column-gap: 89px;
+    margin: 0 auto;
+    max-width: 1210px;
+}
+
+.logo {
+    display: flex;
+    width: 89px;
+    margin-right: auto;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    max-width: 842px;
+    gap: 26px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    padding-top: 65px;
+  }
+
 .promo {
     font-weight: 400;
-    color: #533738;
+    padding-top: 50px;
+    padding-bottom: 168px;
+    background-image: url(../img/bg-m.jpg);
+    background-position-y: -169px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1032px;
 }
 
 .first-heading {
@@ -43,6 +103,7 @@ a {
     line-height: 62px;
     width: 534px;
     height: 186px;
+    padding-bottom: 20px;
 }
 
 .promo-description {
@@ -65,41 +126,10 @@ a {
     margin-top: 21px;
 }
 
-
-
-.navigation {
-    display: flex;
-    margin-right: 26px;
-}
-
-.header-navigation {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 26px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #533738;
-}
-
-.header-navigation a {
-    display: flex;
-}
-
-.promo {
-    background-image: url(../img/bg-m.jpg);
-    background-size: auto;
-    min-height: 515px;
-}
-
 ul {
     list-style: none;
     margin: 0;
     padding: 0;
-}
-.container {
-    padding: 65px 182px 21px 182px;
 }
 
 .achievements {
